@@ -272,3 +272,7 @@ function onDOMReady(callback) {
 if (typeof document !== 'undefined') {
   onDOMReady(init);
 }
+module.exports = {
+    init: init,
+    load: load
+}
